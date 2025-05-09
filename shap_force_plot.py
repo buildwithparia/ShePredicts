@@ -14,7 +14,7 @@ shap.initjs()
 model = joblib.load("model/pcos_random_forest_model.pkl")
 
 # Load and clean dataset
-df = pd.read_csv("data/PCOS_final_dataset.csv")
+df = pd.read_csv("PCOS_final_dataset.csv")
 X = df.drop("PCOS (Y/N)", axis=1)
 X['AMH(ng/mL)'] = pd.to_numeric(X['AMH(ng/mL)'], errors='coerce')
 X.dropna(subset=['AMH(ng/mL)'], inplace=True)
