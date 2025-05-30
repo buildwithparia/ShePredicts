@@ -113,3 +113,11 @@ I wanted to build something respectful, responsible, and *relatable*.
 Made with science and softness  
 by [Paria](https://github.com/buildwithparia) —  
 Future AI researcher, current overthinker 💭✨
+
+---
+
+## 🧠 License
+
+This project is licensed under the [MIT License](./LICENSE).  
+Knowledge grows when it's shared — feel free to explore, remix, and learn 💡💻
+
